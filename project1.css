@@ -1,0 +1,169 @@
+/* css reset */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nevigation bar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: inherit;
+}
+
+#logo{
+
+
+}
+#logo img{
+    margin-bottom: 40px;
+    margin-left: 185px;
+
+    
+    
+
+}
+#navbar ul{
+    display: flex;
+    margin-top:60px;
+    margin-left:-300px;
+    
+}
+#navbar::before{
+    content: "";
+    background-color: #23282d;
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    z-index: -1;
+    
+}
+
+#navbar ul li{
+    list-style: none;
+    
+    
+
+    
+
+}
+#navbar ul li a{
+    font-family: "Open Sans", Helvetica, Arial, "Liberation Sans", sans-serif;
+    font-weight: 600;
+    display: block;
+    line-height: 34px;
+    text-decoration: none;
+    display: block;
+    color: #eee;
+    font-size: 13px;
+    padding:10px;
+    
+}
+input.text{
+    background-color:black;
+    width: 250px;
+    height: 30px;
+    border: 0;
+    float: left;
+    color: #b4b9be;
+    font-size: 12px;
+    font-family: sans-serif;
+    outline: none;
+    border-radius: 0;
+    margin-left:40px;
+    margin-bottom: 50px;
+    padding-left: 5px;
+
+}
+button{
+    float: left;
+    height: 30px;
+    width: 30px;
+    background-color:black;
+    border: 0;
+    outline: none;
+    margin-bottom: 50px;
+    
+}
+.btn{
+    background-color:#0073aa;
+    margin-bottom:-40px;
+    margin-left:-120px;
+    font-family: "Open Sans", Helvetica, Arial, "Liberation Sans", sans-serif;
+    font-weight: 600;
+    display: block;
+    line-height: 34px;
+    font-size: 13px;
+    padding:1px;
+    color: #eee;
+    height: 30px;
+    width: 120px;
+    text-decoration: none;
+    border-radius: 2px;
+    
+}
+#navbar ul li a:hover{
+    color: #4ca6cf;
+}
+#header{
+    position: absolute;
+    padding: 1.5625rem;
+    background: #0073aa;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50%;
+}
+#header h1{
+    font-family: sans-serif;
+    font-style: normal;
+    text-align: center;
+    color: #FFF;
+    line-height: 1;
+    font-size: 70px;
+    font-weight: inherit;
+    margin: 3rem 0 1rem;
+
+}
+#header p{
+    font-size: 1.45rem;
+    max-width: 34.52714rem;
+    font-weight: 100;
+    text-align: center;
+    color:white;
+    margin: -.3rem 22rem 1rem;
+    padding-left: 5px;
+
+}
+#container{
+    
+    margin-top:400px;    
+    
+}
+#container p{
+    font-size:24px;
+    text-align: center;
+    color: #82878C;
+    font-family:  sans-serif;
+    
+}
+.image1 img{
+    
+    height: 500px; 
+    width: 800px;
+    align-items: center;
+    box-shadow: 0 1px 8px rgba(0,0,0,.2);
+    margin: 35px 300px;
+}
+.image2 img{
+    position: absolute;
+    bottom: -475px;
+    right: 175px;
+    max-width: 200px;
+
+
+}
+
+
